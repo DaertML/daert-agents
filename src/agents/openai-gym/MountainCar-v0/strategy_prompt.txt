@@ -1,0 +1,6 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a Python function that receives the parameter car_vel. If the value is negative, returns 0. If the value is 0 or positive, returns 2.
+
+### Response:
