@@ -1,0 +1,13 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a Python function called policy that receives the parameter pos. Its value is the position of the character, as result of multiplying
+the row_index of the tile by the column index of the tile. Do not step in positions 37 to 46.
+
+### Strategy
+If (pos+1) % 12 is 0 then return 2
+If pos > 20 then return 0
+If pos < 20 then return 1
+
+### Response:
+def policy(pos):

@@ -1,0 +1,6 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write a Python function called policy that receives the parameter pole_pos. If the value is positive, returns 0. If the value is 0 or negative, returns 1.
+
+### Response:
