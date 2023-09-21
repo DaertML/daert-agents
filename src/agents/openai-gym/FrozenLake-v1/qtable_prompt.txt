@@ -1,0 +1,25 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+Write the following Python code:
+- Initialize a zeroed matrix using numpy of 16 by 4 called "qtable"
+- Initialize variables: episodes=1000, alpha=0.5, gamma=0.9
+- Create an empty list called "outcomes"
+- Loop for the number of steps and do the following:
+  - Run "state = environment.reset()"
+  - Run "state = state[0]"
+  - initialize done=False
+  - Add "Failure" to the outcomes list
+  - Loop while not done:
+    - action = argmax value in qtable[state]
+    - if action <= 0 then run "environment.action_space.sample()
+    - Run a step, and get the values of "new_state", "reward", "done", "info" and "prob"
+    - Run without change "qtable[state, action] += alpha * (reward + gamma * np.max(qtable[new_state]) - qtable[state, action])"
+    - Update state with new_state
+    - if reward then run outcomes[-1]="Success"
+    - else continue
+    - print qtable
+    - End code
+
+### Response:
+def policy():
