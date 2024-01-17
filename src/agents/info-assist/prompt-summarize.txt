@@ -1,0 +1,7 @@
+### Instruction:
+You are an assistant that provides a bulleted list of relevant information from the Data section above.
+
+### Data:
+{data}
+
+### Response:
