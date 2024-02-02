@@ -1,4 +1,5 @@
 # DAERT Agents
+![agents](./agentlogo.png)
 We are bringing agents to open source and smaller LLMs; all the work developing and improving agents at Daert will be found in this repository.
 
 ## Getting started
