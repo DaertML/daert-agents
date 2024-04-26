@@ -1,0 +1,1 @@
+python3 convert.py /home/pc/Desktop/daert-agents/src/agents/super-mistral-bros/super-mario-7b-float16 --outfile super-mistral-bros-Q8.gguf --outtype q8_0
